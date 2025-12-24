@@ -1,0 +1,95 @@
+
+black{
+   color:red;
+}
+button{
+    color:rgb(231, 226, 226);
+
+    background-color:rgb(80, 77, 77);
+}
+
+body {
+  background-color:rgb(185, 204, 193);
+} 
+.slider {
+  width: 650px;
+  height: 300px;
+  display: flex;
+  gap: 10px;
+  position: relative;
+  margin: auto;
+}
+
+.slider img {
+  width: 50%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.prev, .next {
+  position: absolute;
+  bottom: 10px;
+  padding: 8px 12px;
+  background: black;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.prev { left: 45%; }
+.next { right: 45%; }
+
+.footer{
+  color:rgb(16, 16, 33);
+  background-color:rgb(111, 111, 133);
+  border-radius: 7px;
+  
+}
+H1{
+  background-color:rgb(235, 194, 194);
+}
+
+ .slider {
+            width: 500px;       /* Width of one image */
+            height: 300px;      /* Height of one image */
+            overflow: hidden;   /* Hide other images */
+            margin: auto;
+        }
+        .slides {
+            display: flex;
+            animation: slide 15s infinite;
+        }
+        .slides img {
+            width: 500px;       /* Same as slider width */
+            height: 300px;
+            flex-shrink: 0;     /* Prevent shrinking */
+        }
+        @keyframes slide {
+            0% { transform: translateX(0); }
+            33% { transform: translateX(-500px); }
+            66% { transform: translateX(-1000px); }
+            100% { transform: translateX(0); }
+        }
+
+           .products { display: flex; gap: 20px; justify-content: center; }
+        .products a img { width: 200px; cursor: pointer; border: 1px solid #ccc; }
+        
+        .top-section{
+          background-color:rgb(135, 18, 102);
+        }
+        
+        .flash{
+        background-color:rgb(231, 217, 196);
+
+        }
+
+        h2{
+           font-weight:10;
+        }
+
+        input{
+          padding:10px;
+          border-radius:10px;
+          width:500px;
+        }
